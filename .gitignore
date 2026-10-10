@@ -1,0 +1,18 @@
+# Raw Kaggle data is large - download it yourself (see README)
+data/*.csv
+data/*.zip
+data/*.7z
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Saved models can be hundreds of MB
+*.joblib
+*.pkl
+
+# Private interview notes
+INTERVIEW_PREP.md
